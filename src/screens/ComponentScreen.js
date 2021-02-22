@@ -1,9 +1,14 @@
 import React from 'react';
- import {Text, StyleSheet} from 'react-native';
+ import {Text, StyleSheet, View} from 'react-native';
 
  // <Text> is jsx saying we want to retuen some text
  const ComponentsScreen = () => {
-    return <Text style={styles.textStyle}>Component Screen!</Text>
+     const hi = "hiii"
+    return (
+    <View>
+        <Text style={styles.textStyle}>Component Screen!</Text>
+        <Text>{hi}</Text>
+    </View>)
  }
 
  // here we are going to style the component
