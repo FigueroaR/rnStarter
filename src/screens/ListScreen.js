@@ -17,7 +17,7 @@ const ListScreen = () => {
             //showsHorizontalScrollIndicator={false}// hides scroll bar horizontal
 
             //this is how we use a key
-            keyExtractor={ (friend => { friend.name})}
+            keyExtractor={ friend => { friend.name}}
             data={friends} 
             renderItem={ ({item}) => {
                 return <Text style={styles.textStyle}>{item.name} - Age: {item.age}</Text>
