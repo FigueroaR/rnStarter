@@ -3,7 +3,7 @@ import React from 'react';
 
  // <Text> is jsx saying we want to retuen some text
  const ComponentsScreen = () => {
-    return <Text style={styles.textStyle}>component Screen!</Text>
+    return <Text style={styles.textStyle}>Component Screen!</Text>
  }
 
  // here we are going to style the component
