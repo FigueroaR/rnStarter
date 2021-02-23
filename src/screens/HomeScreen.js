@@ -4,7 +4,6 @@ import { Text, StyleSheet, View, Button, TouchableOpacity} from "react-native";
 // destructuring out props
 const HomeScreen = ({navigation}) => {
   
-  
   return (
   <View>
     <Text style={styles.text}>New APP</Text>
@@ -22,9 +21,14 @@ const HomeScreen = ({navigation}) => {
       title="Images"
     />
 
-<Button 
-      onPress={ ()=> navigation.navigate('Counter')}
-      title="Counter Demo"
+    <Button 
+        onPress={ ()=> navigation.navigate('Counter')}
+        title="Counter Demo"
+    />
+
+    <Button 
+        onPress={ ()=> navigation.navigate('Color')}
+        title="Color Select"
     />
 
   </View>)
