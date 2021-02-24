@@ -19,7 +19,7 @@ const navigator = createStackNavigator(
     Square: SquareScreen
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Counter',
     defaultNavigationOptions: {
       title: 'App',
     },
