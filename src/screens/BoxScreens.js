@@ -31,8 +31,10 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         //alignSelf: 'center'/// this is specific to child item
         //position: 'absolute' //does what it want with out siblings
-        top: 10,
-        marginBottom: 10
+        // top: 10, <- this property does not work
+        //marginBottom: 10 // this instead of "bottom" property
+        ...StyleSheet.absoluteFillObject // this chuld will fill parent 
+
     },
     textThreeStyle: {
         borderWidth: 3,
