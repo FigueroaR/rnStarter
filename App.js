@@ -21,7 +21,7 @@ const navigator = createStackNavigator(
     Text: TextScreen
   },
   {
-    initialRouteName: 'Counter',
+    initialRouteName: 'Home',
     defaultNavigationOptions: {
       title: 'App',
     },
