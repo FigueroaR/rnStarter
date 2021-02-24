@@ -30,12 +30,13 @@ const styles = StyleSheet.create({
     textTwoStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        alignSelf: 'center'/// this is specific to child item
+        //alignSelf: 'center'/// this is specific to child item
+        //position: 'absolute' //does what it want with out siblings
     },
     textThreeStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        //flex: 2
+        flex: 2,
         alignSelf: 'stretch'
     }
 })
