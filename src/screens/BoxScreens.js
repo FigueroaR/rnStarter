@@ -17,24 +17,26 @@ const styles = StyleSheet.create({
         // alignItems: stretch is default
         //flexDirection: 'row',// column is the default
         height: 200,
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
+        alignItems: 'center'// Item is for parent
     },
     textOneStyle: {
         borderWidth: 3,
         borderColor: 'red',
         //marginVertical: 20
-        flex: 4
+        alignSelf: 'flex-end'
+        
     },
     textTwoStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        //marginVertical: 20
-        flex: 4
+        alignSelf: 'center'/// this is specific to child item
     },
     textThreeStyle: {
         borderWidth: 3,
         borderColor: 'red',
-        flex: 2
+        //flex: 2
+        alignSelf: 'stretch'
     }
 })
 
