@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         // alignItems: stretch is default
         flexDirection: 'row',// column is the default
-        height: 200
+        height: 200,
+        justifyContent: 'space-around'
     },
     textStyle: {
         borderWidth: 3,
